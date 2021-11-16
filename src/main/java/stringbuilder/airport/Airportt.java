@@ -22,21 +22,29 @@ public class Airportt {
     }
 
     public static void main(String[] args) {
-        Flight flightToBombay = new Flight("B-2351", Status.DELETED);
-        Flight flightToParis = new Flight("P-626783", Status.ACTIVE);
+        Airportt airport = new Airportt();
+        Flight flightToLA = new Flight("WIZ234", Status.ACTIVE );
+        Flight flightToBud = new Flight("KLM567", Status.DELETED);
+        Flight flightToParis = new Flight("AF235", Status.DELETED);
+        airport.addFlight(flightToLA);
+        airport.addFlight(flightToBud);
+        airport.addFlight(flightToParis);
+        System.out.println(airport.getDeletedFlights());
+
+        /*Flight flightToBombay = new Flight("B-2351", Status.DELETED);
+        Flight flightToParisss = new Flight("P-626783", Status.ACTIVE);
         Flight flightToFrankfurt = new Flight("F-24671", Status.ACTIVE);
         Flight flightToNewYork = new Flight("N-312561", Status.DELETED);
         Flight flightToSydney = new Flight("S-35", Status.DELETED);
 
-        Airportt airport = new Airportt();
         airport.addFlight(flightToBombay);
         airport.addFlight(flightToParis);
         airport.addFlight(flightToFrankfurt);
         airport.addFlight(flightToNewYork);
         airport.addFlight(flightToSydney);
 
-        String deletedFlights = airport.getDeletedFlights();
+        String deletedFlights = airport.getDeletedFlights();*/
 
-        System.out.println(deletedFlights);
+        //System.out.println(deletedFlights);
     }
 }
