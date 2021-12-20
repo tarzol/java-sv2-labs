@@ -5,31 +5,24 @@ import java.util.List;
 
 public class Zoo implements Animal{
 
-    List<Animal> animals = new ArrayList<>();
+    private List<Animal> animals = new ArrayList<>();
 
     public Zoo(List<Animal> animals) {
         this.animals = animals;
     }
 
-    public int getNumberOfAnimal() {
+    public int getNumberOfAnimals() {
         return animals.size();
     }
 
-    public int getNumberOfLegs() {
+    @Override
+    public int getNumberofLegs() {
+
         int number = 0;
         for (Animal animal : animals) {
             number +=animal.getNumberofLegs();
         }
         return number;
-    }
-
-    //Animal duck = new Duck();
-    //Animal lion = new Lion();
-    //Animal worm = new Worm();
-
-    @Override
-    public int getNumberofLegs() {
-        return 0;
     }
 
     @Override
@@ -51,7 +44,7 @@ public class Zoo implements Animal{
         animals.add(worm);
         System.out.println(("Animals lista hossza: "+animals.size()));
         Zoo zoo = new Zoo(animals);
-        System.out.println("Állatok létszáma: "+zoo.getNumberOfAnimal());
-        System.out.println("Lábak száma"+zoo.getNumberOfLegs());
+        System.out.println("Állatok létszáma: "+zoo.getNumberOfAnimals());
+        System.out.println("Lábak száma"+zoo.getNumberofLegs());
     }
 }
