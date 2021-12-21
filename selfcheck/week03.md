@@ -16,9 +16,9 @@ a típusokról, az operátorokról, valamint a szöveges típusról.
 * [x] [Referenciák videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709845-referenciak)
 * [x] Referenciák gyakorlati feladat
 * [x] [Kompozíció videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28188876-kompozicio)
-* [x] Kompozíció gyakorlati feladat
+* [] Kompozíció gyakorlati feladat
 * [x] [Kompozíció listával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28188892-kompozicio-listaval)
-* [x] Kompozíció listával gyakorlati feladat
+* [] Kompozíció listával gyakorlati feladat
 
 ## Típusok és operátorok
 
@@ -38,7 +38,7 @@ a típusokról, az operátorokról, valamint a szöveges típusról.
 * [x] [Típuskonverzió videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709762-tipuskonverzio)
 * [x] Típuskonverzió gyakorlati feladat
 * [x] [Konverziók videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/27993726-konverziok)
-* [ ] Konverziók gyakorlati feladat
+* [x] Konverziók gyakorlati feladat
 
 ## Részletesen a szöveges típusról
 
@@ -49,12 +49,12 @@ a típusokról, az operátorokról, valamint a szöveges típusról.
 * [x] [Főbb String metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710533-fobb-string-metodusok)
 * [x] Főbb String metódusok gyakorlati feladat
 * [x] [StringBuilder videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710420-stringbuilder)
-* [ ] StringBuilder gyakorlati feladat
+* [x] StringBuilder gyakorlati feladat
 * [x] Szövegek elválasztása vesszővel gyakorlati feladat [(Szöveges anyag itt)](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/texts/28335421-szovegek-elvalasztasa-vesszovel)
 * [x] [Scanner videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710394-scanner)
 * [x] Scanner gyakorlati feladat
 * [x] [Szöveg formázása printf-fel videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10710510-szoveg-formazasa-printf-fel)
-* [ ] Szöveg formázása printf-fel gyakorlati feladat
+* [x] Szöveg formázása printf-fel gyakorlati feladat
 
 ## Konzultációk
 
