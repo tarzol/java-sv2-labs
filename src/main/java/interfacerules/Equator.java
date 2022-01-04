@@ -2,8 +2,8 @@ package interfacerules;
 
 public class Equator implements Name, Length {
 
-    private String name = "Egyenlítő";
-    private int length = 40_000;
+    private String name = "Equator";
+    private double length = 40_075.0;
 
     @Override
     public double getLength() {

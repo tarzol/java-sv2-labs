@@ -14,15 +14,22 @@ public class SimpleTasks implements Runnable  {
 
     @Override
     public void run() {
-        while (!tasks.isEmpty()) {
-            nextStep();
+        while (nextStep()) {
+            //System.out.println(tasks.get(tasks.size()-1));
+            //nextStep();
         }
     }
 
-    public void nextStep() {
+    public boolean nextStep() {
         if (tasks !=null && !tasks.isEmpty()) {
             System.out.println(tasks.get(tasks.size()-1));
             tasks.remove(tasks.size()-1);
+        }
+        if (tasks.size() > 0) {
+            return true;
+        }
+        else {
+            return false;
         }
     }
 
@@ -31,7 +38,11 @@ public class SimpleTasks implements Runnable  {
     }
 
     public static void main(String[] args) {
-        SimpleTasks tasks = new SimpleTasks(Arrays.asList("alma", "körte", "szilva"));
+        List<String> fruits = new ArrayList<>();
+        fruits.add("alma");
+        fruits.add("körte");
+        fruits.add("szilva");
+        SimpleTasks tasks = new SimpleTasks(fruits);
         tasks.run();
     }
 }

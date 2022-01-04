@@ -2,7 +2,7 @@ package interfaces.animal;
 
 public class Worm implements Animal{
     @Override
-    public int getNumberofLegs() {
+    public int getNumberOfLegs() {
         return 0;
     }
 

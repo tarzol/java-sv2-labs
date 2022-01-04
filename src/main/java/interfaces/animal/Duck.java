@@ -3,7 +3,7 @@ package interfaces.animal;
 public class Duck implements Animal{
 
     @Override
-    public int getNumberofLegs() {
+    public int getNumberOfLegs() {
         return 2;
     }
 

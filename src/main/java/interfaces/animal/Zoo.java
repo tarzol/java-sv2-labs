@@ -3,7 +3,7 @@ package interfaces.animal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Zoo implements Animal{
+public class Zoo {
 
     private List<Animal> animals = new ArrayList<>();
 
@@ -15,17 +15,16 @@ public class Zoo implements Animal{
         return animals.size();
     }
 
-    @Override
-    public int getNumberofLegs() {
+    public int getNumberOfAllLegs() {
 
         int number = 0;
         for (Animal animal : animals) {
-            number +=animal.getNumberofLegs();
+            number +=animal.getNumberOfLegs();
         }
         return number;
     }
 
-    @Override
+
     public String getName() {
         return null;
     }
@@ -45,6 +44,6 @@ public class Zoo implements Animal{
         System.out.println(("Animals lista hossza: "+animals.size()));
         Zoo zoo = new Zoo(animals);
         System.out.println("Állatok létszáma: "+zoo.getNumberOfAnimals());
-        System.out.println("Lábak száma"+zoo.getNumberofLegs());
+        System.out.println("Lábak száma"+zoo.getNumberOfAllLegs());
     }
 }
