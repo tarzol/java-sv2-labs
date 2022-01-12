@@ -17,6 +17,15 @@ public class OnlineLesson {
         return name;
     }
 
+    @Override
+    public String toString() {
+        return "OnlineLesson{" +
+                "name='" + name + '\'' +
+                ", nameOfLesson='" + nameOfLesson + '\'' +
+                ", localDateTime=" + localDateTime +
+                '}';
+    }
+
     public String getNameOfLesson() {
         return nameOfLesson;
     }
