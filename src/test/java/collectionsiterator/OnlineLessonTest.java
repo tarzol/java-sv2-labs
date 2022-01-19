@@ -15,5 +15,4 @@ class OnlineLessonTest {
         assertEquals("matek", onlineLesson.getNameOfLesson());
         assertEquals(LocalDateTime.of(2022,01,01,8,0), onlineLesson.getLocalDateTime());
     }
-
 }
