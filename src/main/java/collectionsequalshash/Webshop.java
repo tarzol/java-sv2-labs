@@ -28,7 +28,8 @@ public class Webshop {
     }
 
     public static void main(String[] args) {
-        Webshop webshop1 = new Webshop(Arrays.asList(new Product("cukor", "123456"),
+        Webshop webshop1 = new Webshop(Arrays.asList(
+                new Product("cukor", "123456"),
                 new Product("Liszt", "45678"),
                 new Product("vaj", "123456")));
         Product liszt = new Product("vaj", "123456");
